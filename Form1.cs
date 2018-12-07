@@ -67,6 +67,16 @@ namespace AppCSEcoCycle
             argentTeam = argentIndiv * 5;
             lbTeam.Text = argentTeam.ToString() + " $ ";
 
+            //Define Max to 16.000$
+            if (argentIndiv > 16000)
+            {
+                argentIndiv = 16000;
+            }
+            //not allowed negativ numbers
+            if (argentIndiv < 0)
+            {
+                argentIndiv = 0;
+            }
         }
 
         private void btnLose_Click(object sender, EventArgs e)
@@ -177,11 +187,11 @@ namespace AppCSEcoCycle
         {
             if (terroriste == true)
             {
-                argentIndiv -= 2300;
+                argentIndiv -= 1700;
             }
             else if (counterTerroriste == true)
             {
-                argentIndiv -= 2300;
+                argentIndiv -= 1700;
             }
             else
             {
@@ -256,6 +266,54 @@ namespace AppCSEcoCycle
             lbIndiv.Text = argentIndiv.ToString() + " $ ";
             argentTeam = argentIndiv * 5;
             lbTeam.Text = argentTeam.ToString() + " $ ";
+        }
+
+        private void btnPM_Click(object sender, EventArgs e)
+        {
+            if (terroriste == true)
+            {
+                argentIndiv -= 2300;
+            }
+            else if (counterTerroriste == true)
+            {
+                argentIndiv -= 2300;
+            }
+            else
+            {
+                MessageBox.Show("Choisie un Side adverse avant :) ");
+            }
+        }
+
+        private void btnMidStuff_Click(object sender, EventArgs e)
+        {
+            if (terroriste == true)
+            {
+                argentIndiv -= 500;
+            }
+            else if (counterTerroriste == true)
+            {
+                argentIndiv -= 500;
+            }
+            else
+            {
+                MessageBox.Show("Choisie un Side adverse avant :) ");
+            }
+        }
+
+        private void btnFullStuff_Click(object sender, EventArgs e)
+        {
+            if (terroriste == true)
+            {
+                argentIndiv -= 1100;
+            }
+            else if (counterTerroriste == true)
+            {
+                argentIndiv -= 1400;
+            }
+            else
+            {
+                MessageBox.Show("Choisie un Side adverse avant :) ");
+            }
         }
     }
 }

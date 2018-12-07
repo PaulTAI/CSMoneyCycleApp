@@ -50,7 +50,7 @@
             this.btnFullStuff = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnPM = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -259,6 +259,7 @@
             this.btnMidStuff.TabIndex = 18;
             this.btnMidStuff.Text = "Un peu";
             this.btnMidStuff.UseVisualStyleBackColor = true;
+            this.btnMidStuff.Click += new System.EventHandler(this.btnMidStuff_Click);
             // 
             // btnFullStuff
             // 
@@ -268,6 +269,7 @@
             this.btnFullStuff.TabIndex = 19;
             this.btnFullStuff.Text = "Full Stuff";
             this.btnFullStuff.UseVisualStyleBackColor = true;
+            this.btnFullStuff.Click += new System.EventHandler(this.btnFullStuff_Click);
             // 
             // label1
             // 
@@ -289,14 +291,15 @@
             this.label2.TabIndex = 21;
             this.label2.Text = "Stuff ?";
             // 
-            // button1
+            // btnPM
             // 
-            this.button1.Location = new System.Drawing.Point(150, 309);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 22;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnPM.Location = new System.Drawing.Point(150, 309);
+            this.btnPM.Name = "btnPM";
+            this.btnPM.Size = new System.Drawing.Size(75, 23);
+            this.btnPM.TabIndex = 22;
+            this.btnPM.Text = "PM";
+            this.btnPM.UseVisualStyleBackColor = true;
+            this.btnPM.Click += new System.EventHandler(this.btnPM_Click);
             // 
             // label7
             // 
@@ -314,7 +317,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(694, 390);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnPM);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnFullStuff);
@@ -370,7 +373,7 @@
         private System.Windows.Forms.Button btnFullStuff;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnPM;
         private System.Windows.Forms.Label label7;
     }
 }
