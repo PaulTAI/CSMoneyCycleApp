@@ -60,9 +60,9 @@
             this.lbTeam.Font = new System.Drawing.Font("Arial", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbTeam.Location = new System.Drawing.Point(67, 92);
             this.lbTeam.Name = "lbTeam";
-            this.lbTeam.Size = new System.Drawing.Size(164, 40);
+            this.lbTeam.Size = new System.Drawing.Size(183, 40);
             this.lbTeam.TabIndex = 0;
-            this.lbTeam.Text = "unkwon $";
+            this.lbTeam.Text = "unknwon $";
             // 
             // lbIndiv
             // 
