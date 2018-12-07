@@ -1,0 +1,10 @@
+C:\Users\PTA17856\source\repos\AppCSEcoCycle\AppCSEcoCycle\bin\Debug\AppCSEcoCycle.exe.config
+C:\Users\PTA17856\source\repos\AppCSEcoCycle\AppCSEcoCycle\bin\Debug\AppCSEcoCycle.exe
+C:\Users\PTA17856\source\repos\AppCSEcoCycle\AppCSEcoCycle\bin\Debug\AppCSEcoCycle.pdb
+C:\Users\PTA17856\source\repos\AppCSEcoCycle\AppCSEcoCycle\obj\Debug\AppCSEcoCycle.csprojAssemblyReference.cache
+C:\Users\PTA17856\source\repos\AppCSEcoCycle\AppCSEcoCycle\obj\Debug\AppCSEcoCycle.Form1.resources
+C:\Users\PTA17856\source\repos\AppCSEcoCycle\AppCSEcoCycle\obj\Debug\AppCSEcoCycle.Properties.Resources.resources
+C:\Users\PTA17856\source\repos\AppCSEcoCycle\AppCSEcoCycle\obj\Debug\AppCSEcoCycle.csproj.GenerateResource.cache
+C:\Users\PTA17856\source\repos\AppCSEcoCycle\AppCSEcoCycle\obj\Debug\AppCSEcoCycle.csproj.CoreCompileInputs.cache
+C:\Users\PTA17856\source\repos\AppCSEcoCycle\AppCSEcoCycle\obj\Debug\AppCSEcoCycle.exe
+C:\Users\PTA17856\source\repos\AppCSEcoCycle\AppCSEcoCycle\obj\Debug\AppCSEcoCycle.pdb
